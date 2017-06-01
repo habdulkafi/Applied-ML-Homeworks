@@ -176,20 +176,27 @@ youtube-dl==2017.4.2
 All the tasks are to be completed using the [keras Sequential interface](https://keras.io/getting-started/sequential-model-guide/). You can but are not required to use the scikit-learn wrappers included in keras. We recommend to run all but Task 1 on the habanero cluster which provides GPU support (though you could also run task 2 on a CPU). Running on your own machine without a GPU will take significantly longer. We have limited access to GPU resources on the cluster, so make sure to start working on the homework well in advance. Feel free to use any other compute resources at your disposal.
 
 You can find instructions on accessing the cluster below.
-Task 1 [10 Points]
+
+### Task 1 [10 Points]
 Run a multilayer perceptron (feed forward neural network) with two hidden layers and rectified linear nonlinearities on the iris dataset using the keras [Sequential interface](https://keras.io/getting-started/sequential-model-guide/). Include code for model selection and evaluation on an independent test-set.
+
 [4pts for running model, 3pts for correct architecture, 3pts for evaluation]
-Task 2 [30 Points]
+
+### Task 2 [30 Points]
 Train a multilayer perceptron on the MNIST dataset. Compare a “vanilla” model with a model Qusing drop-out. Visualize the learning curves.
+
 [Running model 10pts, model selection 7.5pts, dropout 7.5pts, learning curve 5pts]
 
-Task 3 [30 Points]
-Train a convolutional neural network on the [SVHN dataset](http://ufldl.stanford.edu/housenumbers/) in format 2 (single digit classification). You should achieve at least 85% test-set accuracy with a base model. Also build a model using batch normalization. You can compare against other approaches reported [here](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#5356484e) if you’re curious. You are not required to use the unlabeled data. [10pts for working model, 15pts for 85%, 5pts for batch normalization, BONUS 10pts for acc >=90%]
+### Task 3 [30 Points]
+Train a convolutional neural network on the [SVHN dataset](http://ufldl.stanford.edu/housenumbers/) in format 2 (single digit classification). You should achieve at least 85% test-set accuracy with a base model. Also build a model using batch normalization. You can compare against other approaches reported [here](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#5356484e) if you’re curious. You are not required to use the unlabeled data. 
 
-Task 4 [30 points]
+[10pts for working model, 15pts for 85%, 5pts for batch normalization, BONUS 10pts for acc >=90%]
+
+### Task 4 [30 points]
 Load the weights of a pre-trained convolutional neural network, for example AlexNet or VGG, and use it as feature extraction method to train a linear model or MLP  on the pets dataset. You should achieve at least 70% accuracy. It’s recommended you store the features on disk so you don’t have to recompute them for model selection.
 The pets dataset can be found [here](http://www.robots.ox.ac.uk/~vgg/data/pets/)
 We will be working with the 37 class classification task.
+
 [10pts for loading model, 10pts for retraining, 10pts for 70% accuracy]
 
 Note: We have compiled a list of Keras tips to help you with problems that you may run into at the bottom.
