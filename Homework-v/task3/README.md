@@ -48,7 +48,7 @@ The test error rate on an independent test set was 0.90285033804548254.
 The loss/accuracy graph looks like this (10% of training set for validation):
 
 
-![](/task3/loss_acc_curve.png?raw=true )
+![](/Homework-v/task3/loss_acc_curve.png?raw=true )
 
 
 

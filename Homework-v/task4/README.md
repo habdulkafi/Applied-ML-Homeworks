@@ -17,4 +17,4 @@ The accuracy on an independent test set was 0.89580514208389717.
 
 The accuracy/loss curve looks like (the validation scores are from 20% of the training data):
 
-![](/task4/pets-curve.png?raw=true )
+![](/Homework-v/task4/pets-curve.png?raw=true )
